@@ -5,6 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/introduction_to_ai_midterm/',
   build: {
     outDir: 'docs'
   },
